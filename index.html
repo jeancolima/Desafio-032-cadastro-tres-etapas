@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro App</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <div class="main-container">
+            <div class="card-container">
+                <div class="card-confirmation">
+                    <img src="images/confirm.png" alt="Confirmation icon">
+                    <h2>Registered with success!</h2>
+                    <h3>Thanks for the patient</h3>
+                </div>
+                <div class="card-time">
+                    <h2>Choose Time</h2>
+                    <h3 class="day-selected-text">15 May | 30 Minute Meeting</h3>
+                    <ul class="card-time-list">
+                        <li class="card-time-item card-time-item-selected">10:30</li>
+                        <li class="card-time-item">11:00</li>
+                        <li class="card-time-item">11:30</li>
+                    </ul>
+                    <button class="btn-next-section" id="button-card-3">Next</button>
+                </div>
+                <div class="card-date">
+                    <h2>Choose Date</h2>
+                    <div class="warning-container">
+                        <img src="images/exclamation.png" alt="Warning icon">
+                        <h3>You can choose only one day</h3>
+                    </div>
+                    <div class="calendar">
+                        <ul class="monday-days calendar-days-list">
+                            <li class="calendar-days-name"><span>MON</span></li>
+                            <li class="calendar-days-item day-selected">1</li>
+                            <li class="calendar-days-item">8</li>
+                            <li class="calendar-days-item">15</li>
+                            <li class="calendar-days-item">22</li>
+                            <li class="calendar-days-item">29</li>
+                        </ul>
+                        <ul class="tuesday-days calendar-days-list">
+                            <li class="calendar-days-name"><span>TUE</span></li>
+                            <li class="calendar-days-item">2</li>
+                            <li class="calendar-days-item">9</li>
+                            <li class="calendar-days-item">16</li>
+                            <li class="calendar-days-item">23</li>
+                            <li class="calendar-days-item">30</li>
+                        </ul>
+                        <ul class="wednesday-days calendar-days-list">
+                            <li class="calendar-days-name"><span>WED</span></li>
+                            <li class="calendar-days-item">3</li>
+                            <li class="calendar-days-item">10</li>
+                            <li class="calendar-days-item">17</li>
+                            <li class="calendar-days-item">24</li>
+                            <li class="calendar-days-item">30</li>
+                        </ul>
+                        <ul class="thursday-days calendar-days-list">
+                            <li class="calendar-days-name"><span>THU</span></li>
+                            <li class="calendar-days-item">4</li>
+                            <li class="calendar-days-item">11</li>
+                            <li class="calendar-days-item">18</li>
+                            <li class="calendar-days-item">25</li>
+                            <li class="calendar-days-item">31</li>
+                        </ul>
+                        <ul class="friday-days calendar-days-list">
+                            <li class="calendar-days-name"><span>FRI</span></li>
+                            <li class="calendar-days-item">5</li>
+                            <li class="calendar-days-item">12</li>
+                            <li class="calendar-days-item">19</li>
+                            <li class="calendar-days-item">26</li>
+                            <li class="calendar-days-item">1</li>
+                        </ul>
+                        <ul class="saturday-days calendar-days-list">
+                            <li class="calendar-days-name"><span>SAT</span></li>
+                            <li class="calendar-days-item">6</li>
+                            <li class="calendar-days-item">13</li>
+                            <li class="calendar-days-item">20</li>
+                            <li class="calendar-days-item">27</li>
+                            <li class="calendar-days-item">2</li>
+                        </ul>
+                        <ul class="sunday-days calendar-days-list">
+                            <li class="calendar-days-name"><span>SUN</span></li>
+                            <li class="calendar-days-item">7</li>
+                            <li class="calendar-days-item">14</li>
+                            <li class="calendar-days-item">21</li>
+                            <li class="calendar-days-item">28</li>
+                            <li class="calendar-days-item">3</li>
+                        </ul>
+                    </div>
+                    <button class="btn-next-section" id="button-card-2">Next</button>
+                </div>
+                <div class="card-email">
+                    <h2>Enter Your Email</h2>
+                    <h3>You can add 2 guests</h3>
+                    <hr>
+                    <h4>Your Email</h4>
+                    <div class="email-field">
+                        <input type="email" name="email" id="email" placeholder="Example@gmail.com">
+                    </div>
+                    <button class="btn-add-guest">+ Add guest</button>
+                    <button class="btn-next-section" id="button-card-1">Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <p class="credits">Baseado no seguinte <a target="_blank" href="https://dribbble.com/shots/21465711-UI-Components">Design</a></p>
+
+</body>
+
+</html>
